@@ -76,6 +76,15 @@ body {
   margin: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  font-weight: 400;
+}
+
 button {
   background-color: transparent;
   padding: 0;
@@ -89,7 +98,6 @@ header {
 .header-container {
   display: flex;
   justify-content: space-between;
-  background-color: pink;
   max-width: 1280px;
   margin: auto;
   padding: 8px 0;
@@ -124,3 +132,30 @@ header {
   border-right: 2px solid gray;
   padding-right: 20px;
 }
+
+.banner {
+  background-image: url("./images/banner.png");
+  height: 400px;
+  background-size: cover;
+}
+
+.banner-container {
+  background-color: aqua;
+  height: 100%;
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner-container > h3 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.banner-container > h5 {
+  margin-top: 16px;
+  font-size: 18px;
+}
+
